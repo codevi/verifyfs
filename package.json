@@ -1,0 +1,19 @@
+{
+  "name": "module_rename",
+  "version": "0.0.1",
+  "description": "file system - verify folder",
+  "main": "renamenode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ockang/verifyfs.git"
+  },
+  "author": "Edinson Carranza Saldaña <jean_clude_dortosms@hotmail.com> (http://edinsoncs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ockang/verifyfs/issues"
+  },
+  "homepage": "https://github.com/ockang/verifyfs#readme"
+}
