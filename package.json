@@ -1,5 +1,5 @@
 {
-  "name": "module_rename",
+  "name": "renamealljs",
   "version": "0.0.1",
   "description": "file system - verify folder",
   "main": "renamenode.js",

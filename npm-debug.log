@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\practicasnode\\models\\Modulo Rename\\module_rename',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Edinson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle module_rename@0.0.1~prepublish: module_rename@0.0.1
+11 silly lifecycle module_rename@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Edinson\\AppData\\Roaming\\npm-cache\\module_rename\\0.0.1\\package.tgz',
+12 verbose tar pack   'D:\\practicasnode\\models\\Modulo Rename\\module_rename' ]
+13 verbose tarball C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package.tgz
+14 verbose folder D:\practicasnode\models\Modulo Rename\module_rename
+15 verbose addLocalTarball adding from inside cache C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package.tgz
+16 verbose correctMkdir C:\Users\Edinson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd module_rename@0.0.1
+18 verbose afterAdd C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Edinson\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package\package.json written
+21 silly publish { name: 'module_rename',
+21 silly publish   version: '0.0.1',
+21 silly publish   description: 'file system - verify folder',
+21 silly publish   main: 'renamenode.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/ockang/verifyfs.git' },
+21 silly publish   author:
+21 silly publish    { name: 'Edinson Carranza Saldaña',
+21 silly publish      email: 'jean_clude_dortosms@hotmail.com',
+21 silly publish      url: 'http://edinsoncs.com' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/ockang/verifyfs/issues' },
+21 silly publish   homepage: 'https://github.com/ockang/verifyfs#readme',
+21 silly publish   readme: '# verifyfs\r\nModule rename folder, file and verify tipe folder or file\r\n´´´npm install module_rename\r\n   \r\n//Import module\r\nvar rename = require(\'./models/renamenode\');\r\n\r\n//Call function rename(\'namefolder\', \'newnamefolder\', \'change\');\r\nrename(\'folder\', \'mifolder\', \'change\');\r\n\r\n//Call function rename(\'namefolder\', \'not write txt\', \'type\');\r\nrename(\'mifolder\', \'\', \'verifyFolder\');\r\n\t// if is correct return true\r\n\t\r\n//Call function rename(\'namefile\', \'not write txt\', \'type\');\r\nrename(\'file.txt\', \'\', \'verifyFile\');\r\n\r\n\t',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'efa6c11eff5d3bd5f4b9d0fddd4fe9a2bd6f4f41',
+21 silly publish   _id: 'module_rename@0.0.1',
+21 silly publish   _shasum: 'f11abe4cfa2f56ca1f5ecbf19a9f81196d3f5e80',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name module_rename
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'module_rename',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'module_rename',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/module_rename
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Edinson\AppData\Roaming\npm-cache\module_rename\0.0.1\package.tgz
+30 verbose request uri https://registry.npmjs.org/module_rename
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 00:17:43
+33 verbose request using bearer token for auth
+34 verbose request id f01aceb2a9da068f
+35 http request PUT https://registry.npmjs.org/module_rename
+36 http 403 https://registry.npmjs.org/module_rename
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '128',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 25 Aug 2016 03:17:46 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1472095065.749847,VS0,VE985',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\Edinson\AppData\Roaming\npm-cache\registry.npmjs.org\module_rename on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.1. Try bumping the version to 1.0.0" : module_rename
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:199:22)
+40 verbose stack     at emitTwo (events.js:100:13)
+40 verbose stack     at Request.emit (events.js:185:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1036:10)
+40 verbose stack     at emitOne (events.js:95:20)
+40 verbose stack     at Request.emit (events.js:182:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:963:12)
+41 verbose statusCode 403
+42 verbose pkgid module_rename
+43 verbose cwd D:\practicasnode\models\Modulo Rename\module_rename
+44 error Windows_NT 10.0.10586
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v5.10.1
+47 error npm  v3.8.3
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.1. Try bumping the version to 1.0.0" : module_rename
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
