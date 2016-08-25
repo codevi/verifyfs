@@ -1,6 +1,6 @@
 # verifyfs
 Module rename folder, file and verify tipe folder or file
-´´´npm install module_rename
+```npm install module_rename
    
 //Import module
 var rename = require('./models/renamenode');
